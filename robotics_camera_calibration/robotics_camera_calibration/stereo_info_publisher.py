@@ -5,7 +5,6 @@ import cv2
 import yaml
 from cv_bridge import CvBridge
 from ament_index_python.packages import get_package_share_directory
-import depthai as dai
 import numpy as np
 
 class StereoPublisher(Node):
