@@ -64,7 +64,7 @@ class StereoPublisher(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    package_name = 'robotics' #Replace with your package name
+    package_name = 'robotics_camera_calibration' #Replace with your package name
     package_share_directory = get_package_share_directory(package_name)
 
     # read pyyaml files from 'resources' folder
