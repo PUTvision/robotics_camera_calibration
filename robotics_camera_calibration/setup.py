@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 from glob import glob
 import os
 
-package_name = 'robotics'
+package_name = 'robotics_camera_calibration'
 
 setup(
     name=package_name,
@@ -25,8 +25,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'stereo_publisher = robotics.stereo_publisher:main',
-            'stereo_info_publisher = robotics.stereo_info_publisher:main',
+            'stereo_publisher = robotics_camera_calibration.stereo_publisher:main',
+            'stereo_info_publisher = robotics_camera_calibration.stereo_info_publisher:main',
         ],
     },
 )
