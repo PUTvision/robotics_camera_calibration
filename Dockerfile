@@ -26,3 +26,5 @@ RUN rm -rf tmp
 
 RUN mkdir data
 RUN bash src/robotics_camera_calibration/scripts/download_calibration_bag.bash
+
+ENV ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST

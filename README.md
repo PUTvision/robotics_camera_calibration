@@ -16,6 +16,9 @@ cd robotics_camera_calibration
 docker build -t ros2_calibration . --no-cache
 ```
 
+> **Note:** This conteinter uses `ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST` by default.
+
+
 * add docker access to the screen:
 
 ```bash
